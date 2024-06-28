@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!--<script setup lang="ts">
 import {useLocalStorage} from "@vueuse/core";
 
 const {openSettings} = useGlobalState()
@@ -6,7 +6,7 @@ const settings = useLocalStorage('settings', initialSettings)
 </script>
 
 <template>
- <!--<UModal v-model="openSettings">
+ <UModal v-model="openSettings">
     <h2 class="font-bold text-lg px-4 pt-4">
       {{ $t('setting') }}
     </h2>
