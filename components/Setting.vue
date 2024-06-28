@@ -1,4 +1,4 @@
-<!--<script setup lang="ts">
+<script setup lang="ts">
 import {useLocalStorage} from "@vueuse/core";
 
 const {openSettings} = useGlobalState()
@@ -30,5 +30,5 @@ const settings = useLocalStorage('settings', initialSettings)
         <UTextarea autoresize placeholder="You are ChatGPT..." v-model.trim.lazy="settings.system_prompt" class="mt-1"/>
       </li>
     </ul>
-  </UModal>-->
+  </UModal>
 </template>
